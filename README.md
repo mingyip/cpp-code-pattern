@@ -68,6 +68,27 @@ sort(words.begin(), words.end(), []
 ```words: {"a", "b", "ba", "bca", "bda", "bdca"}```
 
 ## `unordered_map`
+### Literating over unordered_map
+range based for loop
+```
+for (auto& it: A) {
+    std::cout << it.first << " " << it.second << std::endl;;
+}
+```
+iterator
+```
+std::unordered_map<string, int> wordMap({{ "First", 1 },{ "Second", 2 },{ "Third", 3 }});
+for (unordered_map<string, int>::iterator it = wordMap.begin(); it != wordMap.end(); ++it) {
+    std::cout << it->first << " :: " << it->second << std::endl;
+}
+```
+for each and Lambda Functions
+```
+std::for_each(wordMap.begin(), wordMap.end() , [](std::pair<std::string, int > element){
+            std::cout<<element.first << " :: "<<element.second<<std::endl;
+            });
+```
+
 
 ## `map`
 
