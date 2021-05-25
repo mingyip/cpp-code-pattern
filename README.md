@@ -3,6 +3,13 @@
 
 ## string
 
+### string skip char
+```
+string str = "2C F4 32 3C B9 DE";
+str.erase(remove(str.begin(),str.end(),' '),str.end()); //2CF4323CB9DE
+```
+
+
 ### Split string by whitespace
 Using isstringstream
 ```
