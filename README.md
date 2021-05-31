@@ -101,6 +101,14 @@ std::for_each(wordMap.begin(), wordMap.end() , [](std::pair<std::string, int > e
 
 ## `unordered_set`
 
+### Hash a dulpicated set and iterate through the set
+
+```c++
+for (auto& w : unordered_set<string> (words.begin(), words.end())) {
+    ...
+}
+```
+
 ## `set`
 
 ## `priority_queue`
