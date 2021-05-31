@@ -79,7 +79,8 @@ sort(words.begin(), words.end(), []
 ### Literating over unordered_map
 
 ```diff
-+ Notice that an unordered_map object makes no guarantees on which specific element is considered its first element.
++ Notice that an unordered_map object makes no guarantees 
++       on which specific element is considered its first element.
 ```
 
 range based for loop
