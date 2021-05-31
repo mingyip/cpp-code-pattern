@@ -75,7 +75,13 @@ sort(words.begin(), words.end(), []
 ```words: {"a", "b", "ba", "bca", "bda", "bdca"}```
 
 ## `unordered_map`
+
 ### Literating over unordered_map
+
+```diff
++ Notice that an unordered_map object makes no guarantees on which specific element is considered its first element.
+```
+
 range based for loop
 ```
 for (auto& it: A) {
