@@ -104,3 +104,27 @@ std::for_each(wordMap.begin(), wordMap.end() , [](std::pair<std::string, int > e
 ## `set`
 
 ## `priority_queue`
+
+## Three Dots operator `...`
+
+```c++
+int array[10] = { [ 0 ... 9 ] = 5 };
+```
+
+The syntax you stumbled upon is a range initializer, it is a GNU extension to initialize all elements between 0and 9 to the given value, thus strictly equivalent to:
+
+```c++
+int array[10] = { [0] = 5, [1] = 5, [2] = 5, [3] = 5, [4] = 5, [5] = 5, [6] = 5, [7] = 5, [8] = 5, [9] = 5};
+```
+
+<br/>
+
+Read more here:
+
+https://stackoverflow.com/questions/56598905/three-dots-operator-for-initializing-an-array
+
+
+
+
+
+
