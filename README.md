@@ -1,6 +1,55 @@
 # cpp-code-pattern
 
 
+## A. Fundamental
+
+### 1. object construction/ initialization
+
+### 2. object destruction
+
+### 3. object copying - shallow vs deep
+
+### 4. const correctness
+
+### 5. virtual keyword
+
+### 6. virtual destructors
+
+### 7. pure virtual fuctions
+
+### 8. function overloading
+
+### 9. operator overloading
+
+### 10. exceptions
+
+### 11. exception safety
+
+### 12. streams
+
+### 13. templates
+
+### 14. standard template library (STL)
+
+### 15. memory management
+
+### 16. operator new
+
+### 17. stack objects
+
+### 18. static objects
+
+### 19. smart pointers
+
+### 20. Resource acquisition is initialization (RAII)
+
+
+---
+
+## B. standard template library (STL)
+
+
+
 ## string
 
 ### string skip char
